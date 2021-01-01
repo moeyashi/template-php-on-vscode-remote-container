@@ -1,0 +1,10 @@
+{
+  "name": "php dev container",
+
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "extensions": [],
+  "settings": [],
+  "postCreateCommand": "php --version"
+}
